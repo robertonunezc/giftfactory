@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gifts"
+version = "0.1.0"
+description = "fullstack app with flask"
+authors = ["Roberto Nunez <robertonc@tuta.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.1"
+pydentic = "^0.0.1.dev3"
+pydantic = "^2.6.4"
+pydantic-settings = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
